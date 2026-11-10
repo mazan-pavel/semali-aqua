@@ -2,12 +2,15 @@
 import { computed } from 'vue'
 import { BRAND } from '@/data/brand'
 import { SERVICES } from '@/data/services'
+import { assetUrl } from '@/utils/assets'
 
 const emit = defineEmits<{
   (e: 'open-booking', payload?: { serviceName?: string }): void
 }>()
 
 const vip = computed(() => SERVICES.find((s) => s.id === 'vip-complex')!)
+const vipWebp = assetUrl('assets/images/services/vip-complex.webp')
+const vipJpg = assetUrl('assets/images/services/vip-complex.jpg')
 
 const includedBonuses = [
   {
@@ -25,9 +28,9 @@ const includedBonuses = [
   <section id="vip-offer" class="section-shell vip-section" aria-labelledby="vip-heading">
     <div class="vip-visual" aria-hidden="true">
       <picture>
-        <source srcset="/assets/images/services/vip-complex.webp" type="image/webp" />
+        <source :srcset="vipWebp" type="image/webp" />
         <img
-          src="/assets/images/services/vip-complex.jpg"
+          :src="vipJpg"
           alt=""
           width="1600"
           height="1067"

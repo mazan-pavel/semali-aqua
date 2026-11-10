@@ -1,3 +1,5 @@
+import { assetUrl } from '@/utils/assets'
+
 export type BeforeAfterCategorySlug = 'body' | 'interior' | 'wheels' | 'engine' | 'headlights'
 
 export interface BeforeAfterCase {
@@ -39,8 +41,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     afterLabel: 'После',
     beforeDetails: 'Паутинка, голограммы и мутный блик на чёрном ЛКП.',
     afterDetails: 'Глубокий глянец и чистое зеркальное отражение.',
-    beforeImage: '/assets/images/before-after/body-before.svg',
-    afterImage: '/assets/images/before-after/body-after.svg',
+    beforeImage: assetUrl('assets/images/before-after/body-before.svg'),
+    afterImage: assetUrl('assets/images/before-after/body-after.svg'),
     isTemporaryPlaceholder: true
   },
   {
@@ -56,8 +58,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     afterLabel: 'После',
     beforeDetails: 'Засаленность, серый налёт и грязь в перфорации.',
     afterDetails: 'Чистая светлая кожа без липкости и налёта.',
-    beforeImage: '/assets/images/before-after/interior-before.webp',
-    afterImage: '/assets/images/before-after/interior-after.webp',
+    beforeImage: assetUrl('assets/images/before-after/interior-before.webp'),
+    afterImage: assetUrl('assets/images/before-after/interior-after.webp'),
     isTemporaryPlaceholder: false
   },
   {
@@ -73,8 +75,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     afterLabel: 'После',
     beforeDetails: 'Въевшаяся колодочная пыль и посеревшая резина.',
     afterDetails: 'Чистый металл и ровный тон шин.',
-    beforeImage: '/assets/images/before-after/wheels-before.svg',
-    afterImage: '/assets/images/before-after/wheels-after.svg',
+    beforeImage: assetUrl('assets/images/before-after/wheels-before.svg'),
+    afterImage: assetUrl('assets/images/before-after/wheels-after.svg'),
     isTemporaryPlaceholder: true
   },
   {
@@ -90,8 +92,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     afterLabel: 'После',
     beforeDetails: 'Слой пыли на крышках, патрубках и пластике.',
     afterDetails: 'Чистый отсек, читаемые маркировки, ухоженный пластик.',
-    beforeImage: '/assets/images/before-after/engine-before.webp',
-    afterImage: '/assets/images/before-after/engine-after.webp',
+    beforeImage: assetUrl('assets/images/before-after/engine-before.webp'),
+    afterImage: assetUrl('assets/images/before-after/engine-after.webp'),
     isTemporaryPlaceholder: false
   },
   {
@@ -107,8 +109,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     afterLabel: 'После',
     beforeDetails: 'Мутный рассеиватель и рассеянный свет.',
     afterDetails: 'Прозрачная оптика и чёткая светотеневая граница.',
-    beforeImage: '/assets/images/before-after/headlights-before.svg',
-    afterImage: '/assets/images/before-after/headlights-after.svg',
+    beforeImage: assetUrl('assets/images/before-after/headlights-before.svg'),
+    afterImage: assetUrl('assets/images/before-after/headlights-after.svg'),
     isTemporaryPlaceholder: true
   }
 ]

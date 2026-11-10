@@ -1,18 +1,22 @@
 <script setup lang="ts">
 import { BRAND } from '@/data/brand'
+import { assetUrl } from '@/utils/assets'
 
 const emit = defineEmits<{
   (e: 'open-booking', payload?: { serviceName?: string }): void
 }>()
+
+const heroWebp = assetUrl('assets/images/hero/studio-hero.webp')
+const heroJpg = assetUrl('assets/images/hero/studio-hero.jpg')
 </script>
 
 <template>
   <section id="top" class="hero-section" aria-labelledby="hero-heading">
     <div class="hero-media">
       <picture>
-        <source srcset="/assets/images/hero/studio-hero.webp" type="image/webp" />
+        <source :srcset="heroWebp" type="image/webp" />
         <img
-          src="/assets/images/hero/studio-hero.jpg"
+          :src="heroJpg"
           alt="Чистый автомобиль в детейлинг-боксе SEMALI AQUA"
           width="2200"
           height="1467"

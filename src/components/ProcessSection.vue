@@ -2,6 +2,7 @@
 import { onMounted, onUnmounted, ref } from 'vue'
 import { BRAND } from '@/data/brand'
 import { PROCESS_STEPS } from '@/data/services'
+import { assetUrl } from '@/utils/assets'
 
 const emit = defineEmits<{
   (e: 'open-booking', payload?: { serviceName?: string }): void
@@ -9,6 +10,8 @@ const emit = defineEmits<{
 
 const videoRef = ref<HTMLVideoElement | null>(null)
 const reduceMotion = ref(false)
+const washVideo = assetUrl('assets/images/process/wash.mp4')
+const washPoster = assetUrl('assets/images/process/wash-poster.jpg')
 
 function syncMotionPreference() {
   reduceMotion.value = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -36,12 +39,12 @@ onUnmounted(() => {
 
 <template>
   <section id="process" class="section-shell process-section" aria-labelledby="process-heading">
-    <div class="process-media">
+    <div class="process-media" :style="{ '--process-poster': `url(${washPoster})` }">
       <video
         ref="videoRef"
         class="process-media__video"
-        src="/assets/images/process/wash.mp4"
-        poster="/assets/images/process/wash-poster.jpg"
+        :src="washVideo"
+        :poster="washPoster"
         muted
         loop
         playsinline
@@ -200,8 +203,7 @@ onUnmounted(() => {
   }
 
   .process-media {
-    background:
-      url('/assets/images/process/wash-poster.jpg') center / cover no-repeat;
+    background: var(--process-poster) center / cover no-repeat;
   }
 
   .process-media::after {

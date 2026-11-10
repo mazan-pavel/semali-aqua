@@ -1,3 +1,5 @@
+import { assetUrl } from '@/utils/assets'
+
 export type VehicleBodyType = 'all' | 'sedan' | 'suv' | 'minibus'
 
 export interface VehicleBodyOption {
@@ -114,7 +116,7 @@ export const SERVICES: ServiceItem[] = [
       { bodyType: 'suv', bodyLabel: 'Внедорожник', priceDisplay: '30 BYN', numericFrom: 30 },
       { bodyType: 'minibus', bodyLabel: 'Микроавтобус', priceDisplay: '50 BYN', numericFrom: 50 }
     ],
-    imagePlaceholder: '/assets/images/services/wash-three-phase.svg'
+    imagePlaceholder: assetUrl('assets/images/services/wash-three-phase.svg')
   },
   {
     id: 'wash-standard',
@@ -133,7 +135,7 @@ export const SERVICES: ServiceItem[] = [
       { bodyType: 'sedan', bodyLabel: 'Седан / универсал', priceDisplay: '35 BYN', numericFrom: 35 },
       { bodyType: 'suv', bodyLabel: 'Внедорожник', priceDisplay: '40 BYN', numericFrom: 40 }
     ],
-    imagePlaceholder: '/assets/images/services/wash-standard.svg'
+    imagePlaceholder: assetUrl('assets/images/services/wash-standard.svg')
   },
   {
     id: 'vip-complex',
@@ -156,7 +158,7 @@ export const SERVICES: ServiceItem[] = [
     ],
     fixedPriceDisplay: '100 BYN',
     fixedPriceNumeric: 100,
-    imagePlaceholder: '/assets/images/services/vip-complex.svg'
+    imagePlaceholder: assetUrl('assets/images/services/vip-complex.svg')
   },
   {
     id: 'detailing-wash',
@@ -216,7 +218,7 @@ export const SERVICES: ServiceItem[] = [
       { bodyType: 'suv', bodyLabel: 'Внедорожник', priceDisplay: '330 BYN', numericFrom: 330 },
       { bodyType: 'minibus', bodyLabel: 'Микроавтобус', priceDisplay: '360 BYN', numericFrom: 360 }
     ],
-    imagePlaceholder: '/assets/images/services/detailing-wash.svg'
+    imagePlaceholder: assetUrl('assets/images/services/detailing-wash.svg')
   },
   {
     id: 'interior-cleaning',
@@ -260,7 +262,7 @@ export const SERVICES: ServiceItem[] = [
         ]
       }
     ],
-    imagePlaceholder: '/assets/images/services/interior-dryclean.svg'
+    imagePlaceholder: assetUrl('assets/images/services/interior-dryclean.svg')
   },
   {
     id: 'polish-and-ceramic',
@@ -283,7 +285,7 @@ export const SERVICES: ServiceItem[] = [
       { bodyType: 'suv', bodyLabel: 'Внедорожник', priceDisplay: 'от 700 BYN', numericFrom: 700 },
       { bodyType: 'minibus', bodyLabel: 'Микроавтобус', priceDisplay: 'от 900 BYN', numericFrom: 900 }
     ],
-    imagePlaceholder: '/assets/images/services/polish-ceramic.svg'
+    imagePlaceholder: assetUrl('assets/images/services/polish-ceramic.svg')
   }
 ]
 

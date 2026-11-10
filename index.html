@@ -26,13 +26,26 @@
     <meta property="og:url" content="https://semali-aqua.by/" />
     <meta property="og:image" content="%BASE_URL%assets/images/hero/studio-hero.jpg" />
 
-    <!-- Fonts: Unbounded (Display), Manrope (Body), JetBrains Mono (Technical/Prices) -->
+    <!-- Fonts: non-blocking load (system stack until swap) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
 
     <!-- Structured Data: LocalBusiness (AutoWash / AutoDetailing) & Service OfferCatalog -->
     <script type="application/ld+json">

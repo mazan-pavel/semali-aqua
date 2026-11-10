@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" fill="none">
+  <defs>
+    <linearGradient id="afterBg" x1="0" y1="0" x2="800" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B0C0E"/>
+      <stop offset="100%" stop-color="#121519"/>
+    </linearGradient>
+    <linearGradient id="deepGloss" x1="120" y1="110" x2="720" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E232B"/>
+      <stop offset="45%" stop-color="#0A0C0E"/>
+      <stop offset="100%" stop-color="#171B22"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" fill="url(#afterBg)"/>
+  <!-- Deep mirror-black hood panel -->
+  <path d="M70 430C150 220 320 120 730 100L760 460H70Z" fill="url(#deepGloss)" stroke="#D7FF38" stroke-opacity="0.55" stroke-width="2"/>
+  <!-- Crisp razor-sharp studio LED reflection -->
+  <path d="M265 270L575 190L590 212L280 292Z" fill="#F5F5F2" fill-opacity="0.92"/>
+  <path d="M295 312L555 244L564 256L304 324Z" fill="#D7FF38" fill-opacity="0.88"/>
+  <!-- Hydrophobic ceramic beads -->
+  <g fill="#38E8FF" fill-opacity="0.75">
+    <circle cx="590" cy="310" r="6"/>
+    <circle cx="614" cy="292" r="4"/>
+    <circle cx="638" cy="322" r="5"/>
+    <circle cx="562" cy="336" r="4.5"/>
+  </g>
+  <rect x="470" y="32" width="298" height="38" rx="6" fill="#101112" fill-opacity="0.9" stroke="#D7FF38" stroke-opacity="0.5"/>
+  <text x="488" y="56" fill="#D7FF38" font-family="monospace" font-size="14" font-weight="bold">ПОСЛЕ: ПОЛИРОВКА + КЕРАМИКА</text>
+</svg>

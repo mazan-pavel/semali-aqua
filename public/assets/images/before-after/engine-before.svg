@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" fill="none">
+  <rect width="800" height="540" fill="#1B1917"/>
+  <!-- Engine bay dusty layout -->
+  <rect x="140" y="95" width="520" height="350" rx="18" fill="#26231F" stroke="#524A40" stroke-width="3"/>
+  <rect x="240" y="145" width="320" height="230" rx="12" fill="#363029" stroke="#665B4E" stroke-width="2"/>
+  <line x1="270" y1="205" x2="530" y2="205" stroke="#7A6D5D" stroke-width="8"/>
+  <line x1="270" y1="255" x2="530" y2="255" stroke="#7A6D5D" stroke-width="8"/>
+  <line x1="270" y1="305" x2="530" y2="305" stroke="#7A6D5D" stroke-width="8"/>
+  <!-- Dust patches -->
+  <ellipse cx="400" cy="260" rx="190" ry="110" fill="#8C7B65" fill-opacity="0.28"/>
+  <rect x="32" y="32" width="290" height="38" rx="6" fill="#101112" fill-opacity="0.88" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <text x="50" y="56" fill="#9B9FA3" font-family="monospace" font-size="14" font-weight="bold">ДО: ПЫЛЬ И НАЛЁТ ПОД КАПОТОМ</text>
+</svg>

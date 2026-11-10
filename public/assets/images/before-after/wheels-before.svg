@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" fill="none">
+  <rect width="800" height="540" fill="#181716"/>
+  <g transform="translate(400 280)">
+    <!-- Gray weathered tire -->
+    <circle r="195" fill="#2B2927" stroke="#47423C" stroke-width="26"/>
+    <!-- Rim with brown brake dust -->
+    <circle r="142" fill="#23201C" stroke="#6E553B" stroke-width="8"/>
+    <path d="M0 -138V138M-138 0H138M-98 -98L98 98M-98 98L98 -98" stroke="#6B5844" stroke-width="18"/>
+    <circle r="44" fill="#332B22" stroke="#7A5F43" stroke-width="4"/>
+  </g>
+  <rect x="32" y="32" width="295" height="38" rx="6" fill="#101112" fill-opacity="0.88" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <text x="50" y="56" fill="#9B9FA3" font-family="monospace" font-size="14" font-weight="bold">ДО: ТОРМОЗНОЙ НАГАР И НАЛЁТ</text>
+</svg>

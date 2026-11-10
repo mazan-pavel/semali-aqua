@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" fill="none">
+  <rect width="800" height="540" fill="#0F1113"/>
+  <g transform="translate(400 280)">
+    <!-- Deep satin black dressed tire -->
+    <circle r="195" fill="#111316" stroke="#1F242B" stroke-width="26"/>
+    <!-- Bright whitened alloy rim -->
+    <circle r="142" fill="#171B20" stroke="#E8ECEF" stroke-width="8"/>
+    <path d="M0 -138V138M-138 0H138M-98 -98L98 98M-98 98L98 -98" stroke="#D5DCE2" stroke-width="16"/>
+    <circle r="44" fill="#101112" stroke="#D7FF38" stroke-width="4"/>
+  </g>
+  <rect x="445" y="32" width="323" height="38" rx="6" fill="#101112" fill-opacity="0.9" stroke="#D7FF38" stroke-opacity="0.5"/>
+  <text x="463" y="56" fill="#D7FF38" font-family="monospace" font-size="14" font-weight="bold">ПОСЛЕ: ОТБЕЛИВАНИЕ + ЧЕРНЕНИЕ</text>
+</svg>

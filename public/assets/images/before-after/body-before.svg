@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" fill="none">
+  <defs>
+    <linearGradient id="beforeBg" x1="0" y1="0" x2="800" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#222426"/>
+      <stop offset="100%" stop-color="#141517"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="540" fill="url(#beforeBg)"/>
+  <!-- Hood panel contour -->
+  <path d="M70 430C150 220 320 120 730 100L760 460H70Z" fill="#2A2C30" stroke="#52565E" stroke-width="2"/>
+  <!-- Dull diffused lamp reflection -->
+  <ellipse cx="420" cy="250" rx="135" ry="52" transform="rotate(-14 420 250)" fill="#B8BCC2" fill-opacity="0.22"/>
+  <!-- Swirl marks / spiderweb scratches around reflection -->
+  <g stroke="#C8CCD2" stroke-opacity="0.28" stroke-width="1.2">
+    <circle cx="420" cy="250" r="48" stroke-dasharray="18 10"/>
+    <circle cx="420" cy="250" r="76" stroke-dasharray="26 14"/>
+    <circle cx="420" cy="250" r="108" stroke-dasharray="32 18"/>
+    <circle cx="420" cy="250" r="142" stroke-dasharray="22 20"/>
+    <path d="M290 290L540 205M310 195L525 305"/>
+  </g>
+  <!-- Water spots & road film dots -->
+  <g fill="#8D9196" fill-opacity="0.32">
+    <circle cx="230" cy="340" r="6"/>
+    <circle cx="265" cy="318" r="4"/>
+    <circle cx="580" cy="310" r="7"/>
+    <circle cx="620" cy="275" r="5"/>
+    <circle cx="540" cy="370" r="6"/>
+    <circle cx="350" cy="385" r="5"/>
+  </g>
+  <rect x="32" y="32" width="250" height="38" rx="6" fill="#101112" fill-opacity="0.85" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <text x="50" y="56" fill="#9B9FA3" font-family="monospace" font-size="14" font-weight="bold">ДО: РИСКА «ПАУТИНКА» И НАЛЁТ</text>
+</svg>

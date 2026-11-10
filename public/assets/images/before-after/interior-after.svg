@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" fill="none">
+  <rect width="800" height="540" fill="#101214"/>
+  <!-- Clean Matte Factory Leather Seat -->
+  <path d="M210 85H590L650 470H150L210 85Z" fill="#1A1D21" stroke="#D7FF38" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M285 110H515L550 445H250L285 110Z" fill="#15181C" stroke="#2D3239" stroke-width="2"/>
+  <!-- Crisp stitching lines -->
+  <path d="M225 100L172 455M575 100L628 455" stroke="#D7FF38" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="8 6"/>
+  <!-- Clean perforation grid -->
+  <g fill="#F5F5F2" fill-opacity="0.22">
+    <circle cx="350" cy="220" r="3"/><circle cx="380" cy="220" r="3"/><circle cx="410" cy="220" r="3"/><circle cx="440" cy="220" r="3"/>
+    <circle cx="350" cy="255" r="3"/><circle cx="380" cy="255" r="3"/><circle cx="410" cy="255" r="3"/><circle cx="440" cy="255" r="3"/>
+    <circle cx="350" cy="290" r="3"/><circle cx="380" cy="290" r="3"/><circle cx="410" cy="290" r="3"/><circle cx="440" cy="290" r="3"/>
+  </g>
+  <rect x="465" y="32" width="303" height="38" rx="6" fill="#101112" fill-opacity="0.9" stroke="#D7FF38" stroke-opacity="0.5"/>
+  <text x="485" y="56" fill="#D7FF38" font-family="monospace" font-size="14" font-weight="bold">ПОСЛЕ: МАТОВАЯ ЧИСТОТА САЛОНА</text>
+</svg>

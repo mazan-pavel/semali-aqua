@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" fill="#101214"/>
+  <path d="M90 290C140 190 250 140 510 130L530 310H90Z" fill="#181C21" stroke="#D7FF38" stroke-width="2.5"/>
+  <path d="M180 215L450 165" stroke="#D7FF38" stroke-width="4" stroke-linecap="round"/>
+  <text x="40" y="55" fill="#D7FF38" font-family="monospace" font-size="14" font-weight="bold">VIP COMPLEX · 100 BYN + 2 GIFTS</text>
+</svg>
